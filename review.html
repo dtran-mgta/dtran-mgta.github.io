@@ -105,9 +105,7 @@
       <li><a href="https://elroytheelephant.github.io">elroytheelephant</a></li>
     </ul>
 
-    <p> Greetings students and parents! As our class has sadly come to an end, I'd like to revisit concepts we've learned during the past 7 weeks.
-      This is intended as a resource for students to revisit in their journey into web development.
-      I'm writing this so if parents choose, they can follow along with no prior coding experience. Above, I've included the sites created by the students.
+    <p> Greetings students and parents! As our class has sadly come to an end, I'd like to revisit concepts we've learned during the past 7 weeks. This is intended as a resource for students to use in their journey into web development. Above, I've included the sites created by the students.
     </p>
 
     <h2>What we've learned</h2>
@@ -157,8 +155,49 @@
       of two tags, an opening tag and a closing tag, and the content. Contained within your element would be your content.
     </p>
     <div class="slide"><img src="images/element.jpg"/> </div>
+
     <p><h3>Tags</h3>Tags are indicated by the angled brackets surrounding the red text. An opening tag begins the element with the name of the
     element surrounded by angled brackets. The closing tag ends the element with a forward slash before the name of the element.</p>
     <div class="slide"><img src="images/tags.jpg"/> </div>
+
+    <p><h3>Attributes</h3>Attributes are additional information about an element. For example, providing the file path to an image in an img element or a path to a link. They are always apart of the opening tag.</p>
+    <div class="slide"><img src="images/attribute.jpg"/> </div>
+
+    <p><h3>Classes</h3>Classes provide a way to add common styles across multiple different elements by including a user defined class name to the element</p>
+    <div class="slide"><img src="images/class.jpg"/> </div>
+
+    <hr>
+    <h2>Cascading Style Sheet (CSS)</h2>
+    <p>CSS is responsible for adding the look and feel of a site, such as adding color, fonts or spacing.</p>
+
+    <pre><code class="html">
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;&lt;/title&gt;
+          &lt;style&gt;
+            CSS HERE
+          &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </code></pre>
+
+    <p>CSS can be added in a few ways. For a majority of the course, we added styles into a style element contained within the head element. By the end of the course, when our CSS got longer, we separated our CSS from our HTML by making a separate styles.css file and linking to that file in our HTML</p>
+
+    <pre><code class="html">
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;&lt;/title&gt;
+           &lt;link rel="stylesheet" href="styles.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </code></pre>
   </body>
 </html>
