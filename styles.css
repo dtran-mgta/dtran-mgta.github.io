@@ -80,3 +80,7 @@ p{
 .slide{
   text-align: center;
 }
+.small img{
+  width: 80%;
+  height: 80%;
+}
